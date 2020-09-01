@@ -1,0 +1,31 @@
+
+.header1  {
+    margin:10vh;
+    width: 40vh;
+   align-items: center;
+   border-radius: 8vh;
+    transition: all 0.9s ease-in-out;
+
+
+}
+
+
+.container{
+
+ display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+
+}    
+.header1:hover{
+    -webkit-transform: scale(1.9);
+    transform: scale(1.9);
+    background: rgb(0,128,193);
+    background: linear-gradient(13deg, rgba(0,128,193,1) 0%, rgba(0,242,255,0.7570378493194152) 100%, rgba(244,0,0,0.23322832550989148) 100%);
+padding: 20px;
+border-radius: 5vh;
+}
+   
+
