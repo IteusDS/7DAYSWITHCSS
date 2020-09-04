@@ -1,0 +1,115 @@
+body{
+    background-image: url("https://i.ibb.co/3NhQHks/a344.jpg");
+    background-size: 110%;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    text-align: center;
+    margin-right: 2vh;
+    margin-left: 2vh;
+ 
+}
+
+.header1  {
+    height: 4vh;
+    padding-bottom: 10vh;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+.footer1  {
+    height: 3vh;
+    margin-top: 37vh;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.footer1:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+.italign{
+    align-items: center;
+    justify-content: center;
+ 
+    border-radius: 2vh 2vh 0vh 0vh;
+ align-items: center;
+
+ 
+   
+}
+
+
+
+
+.box {
+    width: 12vh ;
+    height: 12vh  ;
+   border-style: solid;
+   border-color: #000000;
+    position: relative;
+    border-radius: 1vh;
+    animation: mymove  5s alternate-reverse infinite;
+  
+  }
+
+  .box:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+  .boxone:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.header1:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+  
+  @keyframes mymove {
+    from {top: 0px;}
+    50% {top: 100px !important} /* ignored */
+ 
+   to {top: 200px;}
+  }
+
+  .boxone {
+    width: 12vh ;
+    height: 12vh ;
+   border-style: solid;
+   border-color: #000000;
+    position: relative;
+    border-radius: 1vh;
+    animation: secondmove  5s alternate-reverse infinite;
+  }
+
+  @keyframes secondmove {
+from{top:200px;}
+50% {top: 100px !important} /* ignored */
+to{top:0px;}
+  }
+
+
+  @media  (min-width: 600px) {
+      body{
+          background-image: url("https://i.ibb.co/hLr19D1/a23.jpg");
+          background-size: 100%;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+      
+          margin-left: 70vh;
+          margin-right: 75vh;
+      }
+      
+.italign{
+    align-items: center;
+    justify-content: center;
+    background-color:transparent;
+
+  }
+
+  }
